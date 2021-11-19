@@ -11,14 +11,19 @@
         <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/drawable/side_nav_bar.xml" value="0.2520833333333333" />
         <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/activity_main.xml" value="0.19199999414062519" />
         <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/app_bar_main.xml" value="0.25343999226562525" />
-        <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/content_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/content_main.xml" value="0.10751999671875011" />
+        <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/fragment_crunches.xml" value="0.15677083333333333" />
         <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/fragment_gallery.xml" value="0.2359375" />
-        <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/fragment_home.xml" value="0.16895999484375016" />
-        <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/fragment_reminders.xml" value="0.11822916666666666" />
+        <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/fragment_home.xml" value="0.13823999578125012" />
+        <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/fragment_hyperextension.xml" value="0.15677083333333333" />
+        <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/fragment_lunges.xml" value="0.15677083333333333" />
+        <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/fragment_pushup.xml" value="0.25343999226562525" />
+        <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/fragment_reminders.xml" value="0.15359999531250015" />
         <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/fragment_report.xml" value="0.15677083333333333" />
         <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/fragment_reset.xml" value="0.14270833333333333" />
         <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/fragment_settings.xml" value="0.14270833333333333" />
         <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/fragment_slideshow.xml" value="0.2359375" />
+        <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/fragment_squat.xml" value="0.15677083333333333" />
         <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/layout/nav_header_main.xml" value="0.19199999414062519" />
         <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/menu/activity_main_drawer.xml" value="0.38399998828125037" />
         <entry key="..\:/Users/dagar/AndroidStudioProjects/KeepFit/app/src/main/res/menu/main.xml" value="0.2359375" />
@@ -32,5 +37,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.19199999414062519" />
+      </ProjectState>
+    </option>
   </component>
 </project>

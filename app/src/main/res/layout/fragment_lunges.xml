@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-<<<<<<< Updated upstream
-</androidx.constraintlayout.widget.ConstraintLayout>
-=======
     <LinearLayout
         android:layout_width="371dp"
         android:layout_height="595dp"
@@ -32,13 +11,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_home">
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="@drawable/program_power"
+            android:background="@drawable/lunges"
             android:contentDescription=" " />
 
         <LinearLayout
@@ -53,49 +32,50 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/push_up"
+                    android:id="@+id/zagolvok_3"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:fontFamily="@font/montserrat"
-                    android:gravity="center"
-                    android:text="Push up"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:id="@+id/squat"
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:fontFamily="@font/montserrat"
-                    android:gravity="center"
-                    android:text="Squat"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:id="@+id/lunges"
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/montserrat_bold"
                     android:gravity="center"
                     android:text="Lunges"
                     android:textSize="20sp" />
 
-                <TextView
-                    android:id="@+id/hyperextention"
+                <CheckedTextView
+                    android:id="@+id/checkedTextView1"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:fontFamily="@font/montserrat"
                     android:gravity="center"
-                    android:text="Hyperesxtention"
+                    android:text="  12 reps"
                     android:textSize="20sp" />
 
-                <TextView
-                    android:id="@+id/crunches"
+                <CheckedTextView
+                    android:id="@+id/checkedTextView2"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:fontFamily="@font/montserrat"
                     android:gravity="center"
-                    android:text="Crunches"
+                    android:text="  12 reps"
                     android:textSize="20sp" />
+
+                <CheckedTextView
+                    android:id="@+id/checkedTextView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+                    android:text="  12 reps"
+                    android:textSize="20sp" />
+
+                <CheckedTextView
+                    android:id="@+id/checkedTextView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+                    android:text="  12 reps"
+                    android:textSize="20sp" />
+
             </LinearLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -103,13 +83,14 @@
                 android:layout_height="match_parent">
 
                 <ImageButton
-                    android:id="@+id/imageButton3"
+                    android:id="@+id/third_to_4"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/button_start"
+                    android:background="@drawable/button_continue"
                     android:contentDescription=" "
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -117,7 +98,4 @@
 
         </LinearLayout>
     </LinearLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
->>>>>>> Stashed changes
